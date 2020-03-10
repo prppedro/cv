@@ -1,0 +1,67 @@
+*
+{
+    font-family: "TeX Gyre Adventor"; 
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-weight: normal; 
+}
+
+body
+{
+    width: 900px;  
+    margin: 0 auto; 
+    border: 1px solid red; 
+    padding: 2em; 
+}
+
+.centralizado
+{
+    text-align: center; 
+}
+
+.flex-master
+{
+    display: flex; 
+    flex-direction: row;  
+}
+
+.flex-client
+{
+    flex-grow: 1; 
+}
+
+.flex-logo 
+{
+    flex-shrink: 1; 
+}
+
+.flex-logo img
+{
+    max-width: 6em; 
+}
+
+.secao
+{
+    font-size: 13pt; 
+    padding: 0.5em 1em; 
+    border-left: 1px solid gray;  
+    border-bottom: 1px solid gray; 
+    border-radius: 0 0 0 0.4em;  
+}
+
+.secao-conteudo
+{
+    padding: 0.5em; 
+}
+
+.texto-posfoto
+{
+    padding: 0 0.5em; 
+}
+
+.place-desc
+{
+    padding: 0.3em; 
+}
